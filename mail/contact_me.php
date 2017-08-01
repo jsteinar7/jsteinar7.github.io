@@ -20,7 +20,7 @@ $to = "jsteinar7@gmail.com";
 $email_subject = "Portfolio Contact Form:  $name";
 $email_body = "You have received a new message from your website contact form.\n\n"
         ."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$headers = "From: PortfolioGithub@adosat.com\n"; // This is the email address the generated message will be from.
+$headers = "From: PortfolioClient@simplyspeak.tk\n"; // This is the email address the generated message will be from.
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			
